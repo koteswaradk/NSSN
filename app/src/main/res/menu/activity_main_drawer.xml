@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_society"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_society" />
+        <item
+            android:id="@+id/nav_board_member"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_boar_members" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_events" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_account" />
+        <item
+            android:id="@+id/nav_members"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_member" />
+    </group>
+    <group
+
+        android:checkableBehavior="none">
+        <item
+            android:title="@string/menu_Products">
+            <menu>
+                <item
+                    android:id="@+id/nav_retail_shop"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_retailshop" />
+
+                <item
+                    android:id="@+id/nav_medical_shop"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_medicines" />
+
+            </menu>
+        </item>
+
+    </group>
+    <group
+
+        android:checkableBehavior="none">
+        <item
+            android:title="@string/menu_services">
+            <menu>
+                <item
+                    android:id="@+id/nav_fd"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_fd" />
+                <item
+                    android:id="@+id/nav_rd"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_rd" />
+                <item android:id="@+id/nav_money_back"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_money_back">
+                </item>
+                <item
+                    android:id="@+id/nav_future_plan"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_future_plan" />
+                <item android:id="@+id/nav_sarala_yojana"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_sarala_yojana">
+                </item>
+            </menu>
+        </item>
+
+    </group>
+    <group
+
+        android:checkableBehavior="none">
+        <item
+            android:title="@string/menu_loan_type">
+            <menu>
+                <item
+                    android:id="@+id/nav_personal_loan"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_personal_loan" />
+                <item
+                    android:id="@+id/nav_vehicle_loan"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_vehicle_loan" />
+                <item android:id="@+id/nav_gold_loan"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_gold_loan">
+                </item>
+                <item
+                    android:id="@+id/nav_mortgage_loan"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_mortgage_loan" />
+                <item android:id="@+id/nav_business_loan"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_business_loan">
+                </item>
+            </menu>
+        </item>
+
+    </group>
+    <group
+
+        android:checkableBehavior="none">
+        <item
+            android:title="@string/menu_openaccount">
+            <menu>
+                <item
+                    android:id="@+id/nav_open_new_account"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_account" />
+
+            </menu>
+        </item>
+
+    </group>
+    <group
+
+        android:checkableBehavior="none">
+        <item
+            android:title="@string/menu_locate_us">
+            <menu>
+                <item
+                    android:id="@+id/nav_locate_us"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_locate_us" />
+            </menu>
+        </item>
+
+    </group>
+    <group
+
+        android:checkableBehavior="none">
+        <item
+            android:title="@string/menu_aboutapp">
+            <menu>
+                <item
+                    android:id="@+id/nav_about_app"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_aboutapp" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

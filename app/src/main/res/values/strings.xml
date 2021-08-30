@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NSSN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Navabharata Souharda Sahakari Niyamita</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_society">Society</string>
+    <string name="menu_boar_members">Board Member</string>
+    <string name="menu_account">Account Opening</string>
+    <string name="menu_openaccount"> Open Account</string>
+    <string name="menu_member">Members</string>
+    <string name="menu_events">Events</string>
+    <string name="menu_Products">Products</string>
+    <string name="menu_retailshop">RetailShop</string>
+    <string name="menu_medicines">Medicines</string>
+    <string name="menu_services">Services</string>
+    <string name="menu_fd">FD</string>
+    <string name="menu_rd">RD</string>
+    <string name="menu_money_back">MoneyBack</string>
+    <string name="menu_future_plan">FuturePlan</string>
+    <string name="menu_sarala_yojana">Sarala Yojana</string>
+    <string name="menu_loan_type">Loans</string>
+    <string name="menu_personal_loan">Personal Loan</string>
+    <string name="menu_vehicle_loan">Vehicle Loan</string>
+    <string name="menu_gold_loan">Gold Loan</string>
+    <string name="menu_mortgage_loan">Mortgage Loan</string>
+    <string name="menu_business_loan">Business Loan</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_logout">Home</string>
+    <string name="menu_locate_us">Locate US</string>
+    <string name="menu_aboutapp">About App</string>
+
+
+</resources>
