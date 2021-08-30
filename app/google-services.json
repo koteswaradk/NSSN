@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "102644274260",
+    "project_id": "navabharata-souharda-sahakari",
+    "storage_bucket": "navabharata-souharda-sahakari.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102644274260:android:de33a640adb67fc1e009c1",
+        "android_client_info": {
+          "package_name": "com.nssn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102644274260-i8f5k327o5edpoib9e6q3g6984dginsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nssn",
+            "certificate_hash": "ec874ad7677f843774581ede17b879782cfa60cb"
+          }
+        },
+        {
+          "client_id": "102644274260-gsniac5v32r8mlis404l9pd1sb6ppto1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYCv9wXR0we37sGlSIbGCl4pp3phuc9UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102644274260-gsniac5v32r8mlis404l9pd1sb6ppto1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

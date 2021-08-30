@@ -7,19 +7,100 @@
 
     <fragment
         android:id="@+id/nav_society"
-        android:name="com.nssn.ui.home.HomeFragment"
+        android:name="com.nssn.ui.society.SocietyFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_board_member"
-        android:name="com.nssn.ui.gallery.GalleryFragment"
+        android:name="com.nssn.ui.boardmembers.BoardmembersFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_events"
-        android:name="com.nssn.ui.slideshow.SlideshowFragment"
+        android:name="com.nssn.ui.events.EventsFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/accontOpeningFragment"
+        android:name="com.nssn.ui.accountopening.AccontOpeningFragment"
+        android:label="accont_opening_fragment"
+        tools:layout="@layout/accont_opening_fragment" />
+    <fragment
+        android:id="@+id/membersFragment"
+        android:name="com.nssn.ui.members.MembersFragment"
+        android:label="members_fragment"
+        tools:layout="@layout/members_fragment" />
+    <fragment
+        android:id="@+id/retailShopFragment"
+        android:name="com.nssn.ui.products.RetailShopFragment"
+        android:label="retail_shop_fragment"
+        tools:layout="@layout/retail_shop_fragment" />
+    <fragment
+        android:id="@+id/medicinesFragment"
+        android:name="com.nssn.ui.products.MedicinesFragment"
+        android:label="medicines_fragment"
+        tools:layout="@layout/medicines_fragment" />
+    <fragment
+        android:id="@+id/FDFragment"
+        android:name="com.nssn.ui.services.FDFragment"
+        android:label="f_d_fragment"
+        tools:layout="@layout/f_d_fragment" />
+    <fragment
+        android:id="@+id/RDFragment"
+        android:name="com.nssn.ui.services.RDFragment"
+        android:label="r_d_fragment"
+        tools:layout="@layout/r_d_fragment" />
+    <fragment
+        android:id="@+id/moneyBackFragment"
+        android:name="com.nssn.ui.services.MoneyBackFragment"
+        android:label="money_back_fragment"
+        tools:layout="@layout/money_back_fragment" />
+    <fragment
+        android:id="@+id/futurePlanFragment"
+        android:name="com.nssn.ui.services.FuturePlanFragment"
+        android:label="future_plan_fragment"
+        tools:layout="@layout/future_plan_fragment" />
+    <fragment
+        android:id="@+id/saralaYojanaFragment"
+        android:name="com.nssn.ui.services.SaralaYojanaFragment"
+        android:label="sarala_yojana_fragment"
+        tools:layout="@layout/sarala_yojana_fragment" />
+    <fragment
+        android:id="@+id/personalLoanFragment"
+        android:name="com.nssn.ui.loans.PersonalLoanFragment"
+        android:label="personal_loan_fragment"
+        tools:layout="@layout/personal_loan_fragment" />
+    <fragment
+        android:id="@+id/vehicleLoanFragment"
+        android:name="com.nssn.ui.loans.VehicleLoanFragment"
+        android:label="vehicle_loan_fragment"
+        tools:layout="@layout/vehicle_loan_fragment" />
+    <fragment
+        android:id="@+id/goldLoanFragment"
+        android:name="com.nssn.ui.loans.GoldLoanFragment"
+        android:label="gold_loan_fragment"
+        tools:layout="@layout/gold_loan_fragment" />
+    <fragment
+        android:id="@+id/mortgageLoanFragment"
+        android:name="com.nssn.ui.loans.MortgageLoanFragment"
+        android:label="mortgage_loan_fragment"
+        tools:layout="@layout/mortgage_loan_fragment" />
+    <fragment
+        android:id="@+id/businessLoanFragment"
+        android:name="com.nssn.ui.loans.BusinessLoanFragment"
+        android:label="business_loan_fragment"
+        tools:layout="@layout/business_loan_fragment" />
+    <fragment
+        android:id="@+id/locateUsFragment"
+        android:name="com.nssn.ui.locateus.LocateUsFragment"
+        android:label="locate_us_fragment"
+        tools:layout="@layout/locate_us_fragment" />
+    <fragment
+        android:id="@+id/aboutAppFragment"
+        android:name="com.nssn.ui.aboutapp.AboutAppFragment"
+        android:label="about_app_fragment"
+        tools:layout="@layout/about_app_fragment" />
+
 </navigation>
